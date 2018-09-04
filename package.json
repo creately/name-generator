@@ -1,5 +1,5 @@
 {
-  "name": "project-name-generator",
+  "name": "namegen",
   "version": "1.0.0",
   "description": "Generate a random, unique, heroku-like name for your app/project/server etc. e.g. \"resonant-silence\"",
   "main": "src/generator.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aceakash/project-name-generator.git"
+    "url": "https://github.com/creately/namegen.git"
   },
   "keywords": [
     "heroku",
@@ -33,6 +33,6 @@
     "lodash": "^4.17.10"
   },
   "bin": {
-    "project-name-generator": "src/generator-bin.js"
+    "namegen": "src/generator-bin.js"
   }
 }
