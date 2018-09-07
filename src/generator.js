@@ -21,8 +21,13 @@ function generate(options) {
   return {
     raw: raw,
     dashed: raw.join('-'),
+    title: raw.map( w => capitalize( w )).join(' '),
     spaced: raw.join(' ')
   };
+}
+
+function capitalize( word ) {
+  return word.charAt(0).toUpperCase() + word.substr(1)
 }
 
 function getRawProjName(options) {
